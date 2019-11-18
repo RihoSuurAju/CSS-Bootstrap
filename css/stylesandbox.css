@@ -1,0 +1,30 @@
+.container-fluid {
+    background-color: blue;
+}
+
+.col {
+    background-color: blueviolet;
+}
+
+.col-6 {
+    color: white;
+    background-color: hotpink;
+    border: 1px solid brown; 
+}
+
+.col-3 {
+    color: white;
+    background-color: darkgoldenrod;
+    border: 1px solid brown;
+}
+
+.col-md-6 {
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.col-md-4 {
+    color: white;
+    background-color: darkmagenta;
+    border: 1px solid white;
+}
