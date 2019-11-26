@@ -42,7 +42,6 @@ body {
     font-size: 1.2rem;
 }
 
-/*MIDDLE STUFF*/
 
 .download-btn {
     margin: 5% 3% 5% 0;
@@ -51,4 +50,120 @@ body {
 .title-image {
     width: 55%;
     transform: rotate(13deg);
+}
+
+/*FEATURE SECTION*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+#features i {
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+    color: var(--santa-green);
+}
+
+/*Testimonials*/
+
+#testimonials {
+    background-color: var(--santa-red-alpha);
+    color: #fff;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.press {
+    background-color: var(--santa-red-alpha);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.4rem 1.4rem 1.8rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*CTA*/
+
+#cta {
+    background-color: var(--santa-red);
+    font-style: 'Montserrat';
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 200px;
+}
+
+#cta h3 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+#cta button{
+    margin: 2% 1% 10% 0%;
+}
+
+/*FOOTER*/
+
+#footer {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 1%;
+}
+
+#footer a {
+    color: black;
+    margin-left: 10px;
+}
+
+#footer p {
+    background-color: rgba(148, 148, 148, 0.452);
+    margin: 0;
 }
